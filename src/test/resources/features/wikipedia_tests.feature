@@ -1,6 +1,6 @@
 Feature: Wikipedia search
         As a non logged in user I should be able to do search on Wikipedia.
- 
+ @dropdown
  Scenario: I select a language
         Given I navigate to "https://www.wikipedia.org/"
         And I select "he" option by value from dropdown having id "searchLanguage"
